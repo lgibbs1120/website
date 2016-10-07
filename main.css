@@ -1,0 +1,22 @@
+body {
+	background:blue;
+	font-family: times;
+}
+
+h3 {
+	background:black;
+	padding:5px;
+	color:white;
+}
+
+a {
+	color:red;
+}
+
+h1 {
+	background:white;
+}
+
+img {
+	size:small;
+}
