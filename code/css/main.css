@@ -1,0 +1,154 @@
+/*****BASIC STYLE*****/
+
+body {
+	font-family: Source Sans Pro, sans-serif;
+	text-align: justify;
+}
+
+/*#about, #experience, #education {
+	height: 300px;
+}*/
+
+/*****GRID*****/
+
+.full-width {
+	width: 1200px;
+	margin: 0px auto;
+	/*background: red;*/
+}
+
+.body-width {
+	width: 800px;
+	float: left;
+	/*background: blue;*/
+	padding: 15px;
+}
+
+.side-width {
+	width: 300px;
+	float: left;
+	/*background: green;*/
+	padding: 15px;
+}
+
+/*****HEADER*****/
+
+header .body-width {
+	height: 150px;
+	background: #f2f0f0;
+	margin-top: -10px;
+}
+
+header h1 {
+	padding-top: 35px;
+	margin: 0px;
+	font-family: lora;
+	font-size: 60px;
+	color: #83afc2;
+	font-weight: lighter;
+}
+
+header h2 {
+	margin: 0px;
+	font-size: 35px;
+	color: #18506f;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+
+/*****BODY*****/
+
+body {
+	background: white;
+	height: 1950px;
+}
+
+main .body-width {
+	background: #f2f0f0;
+	height: 1800px;
+}
+
+/*****ABOUT*****/
+
+#about p {
+	font-size: 20px;
+}
+
+/*****EXPERIENCE*****/
+
+#experience {
+	font-size: 20px;
+	border-top: 3px solid #18506f;
+}
+
+#experience h3 {
+	font-size: 25px;
+	color: #18506f;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*****EDUCATION*****/
+
+#education {
+	font-size: 20px;
+	border-top: 3px solid #18506f;
+}
+
+#education h3 {
+	font-size: 25px;
+	color: #18506f;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*****ASIDE*****/
+
+aside {
+	/*background: #dbdada;*/
+	font-size: 20px;
+}
+
+aside .side-width {
+	background: #dbdada;
+	height: 1800px;
+	width: 320px;
+	text-align: justify;
+	height: 1980px;
+	margin-top: -180px;
+	
+}
+
+aside .right-column {
+	position: fixed;
+}
+
+img {
+	border-radius: 50%;
+	width: 280px;
+	padding: 10px;
+	border: 2px solid #18506f;
+	margin-top: 20px;
+}
+
+/*****DETAILS*****/
+
+#details p {
+	font-family: lora;
+	width: 200px;
+	padding-left: 50px;
+}
+
+/*****SKILLS*****/
+
+#skills h2 {
+	font-size: 25px;
+	color: #18506f;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 50px;
+}
+
+#skills ul li {
+	padding-left: 50px;
+}
